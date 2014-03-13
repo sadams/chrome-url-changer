@@ -1,0 +1,29 @@
+{
+    "name": "Chrome URL Changer",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description":  "Chrome extension for changing URLs (request by page or page itself). Includes all JS, iFrame and CSS resources (as well as everything else)",
+    "browser_action": {
+        "default_title": "Chrome URL Changer",
+        "default_icon": "48.png"
+    },
+    "icons": {
+        "128": "128.png",
+        "48": "48.png"
+    },
+    "background": {
+        "scripts": [
+            "jquery.min.js",
+            "background.js"
+        ]
+    },
+    "options_page": "options.html",
+    "permissions": [
+        "notifications",
+        "tabs",
+        "webRequest",
+        "webRequestBlocking",
+        "http://*/*",
+        "https://*/*"
+    ]
+}

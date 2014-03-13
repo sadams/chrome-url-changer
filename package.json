@@ -1,0 +1,23 @@
+{
+  "name": "chrome-url-changer",
+  "version": "0.0.0",
+  "description": "Chrome extension for changing URLs (request by page or page itself). Includes all JS, iFrame and CSS resources (as well as everything else)",
+  "main": "grunt",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/TagManCode/HostReplaceExtension-Chrome.git"
+  },
+  "author": "",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/TagManCode/HostReplaceExtension-Chrome/issues"
+  },
+  "dependencies": {
+    "grunt-crx": "~0.3.2",
+    "grunt": "~0.4.1"
+  }
+}
